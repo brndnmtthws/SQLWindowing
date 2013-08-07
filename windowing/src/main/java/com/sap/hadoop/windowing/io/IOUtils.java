@@ -89,7 +89,7 @@ public class IOUtils
 			
 			TableWindowingInput tIn = new TableWindowingInput();
 			
-			tIn.initialize(null, hConf, MetaStoreUtils.getSchema(t) );
+			tIn.initialize(null, hConf, MetaStoreUtils.getTableMetadata(t) );
 			
 			return tIn;
 			
